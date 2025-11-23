@@ -9,7 +9,7 @@ const CTA = () => {
 
       <div className="container mx-auto px-6 lg:px-12 relative">
         <div className="text-center max-w-4xl mx-auto">
-          <h2 className="text-[8vw] leading-none font-bold dotted-text mb-12">
+          <h2 className="text-[8vw] leading-none font-bold pixel-text mb-12 opacity-60">
             ready
             <br />
             when you are.
