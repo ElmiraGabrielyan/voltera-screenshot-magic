@@ -16,7 +16,7 @@ const Hero = () => {
 
           {/* Central Image */}
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] flex items-center justify-center">
-            <img src={heartIcon} alt="Heart icon" className="w-full h-full object-contain drop-shadow-2xl animate-float" style={{ filter: 'brightness(0) saturate(100%) invert(95%) sepia(100%) saturate(2000%) hue-rotate(0deg)' }} />
+            <img src={heartIcon} alt="Heart icon" className="w-full h-full object-contain animate-float animate-glow-pulse" style={{ filter: 'brightness(0) saturate(100%) invert(95%) sepia(100%) saturate(2000%) hue-rotate(0deg)' }} />
 
             {/* Floating labels */}
             <div className="absolute top-[5%] left-1/2 -translate-x-1/2 bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg animate-fade-in">
@@ -27,11 +27,11 @@ const Hero = () => {
               <span className="text-sm font-medium">sales outsourcing</span>
             </div>
 
-            <div className="absolute bottom-[25%] left-[-8%] bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:400ms]">
+            <div className="absolute bottom-[30%] left-[-5%] bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:400ms]">
               <span className="text-sm font-medium">recruiting</span>
             </div>
 
-            <div className="absolute bottom-[5%] right-[-8%] bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:600ms]">
+            <div className="absolute bottom-[10%] right-[-5%] bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:600ms]">
               <span className="text-sm font-medium">process automation</span>
             </div>
           </div>
