@@ -43,6 +43,7 @@ const Stats = () => {
             and recruitment.
           </h3>
         </div>
+      </div>
     </section>
   );
 };
