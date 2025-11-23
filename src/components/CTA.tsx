@@ -10,20 +10,18 @@ const CTA = () => {
       <div className="container mx-auto px-6 lg:px-12 relative">
         <div className="text-center max-w-4xl mx-auto">
           <h2 className="text-[8vw] leading-none font-bold dotted-text mb-12">
-            let's build
+            ready
             <br />
-            something great.
+            when you are.
           </h2>
-          
+
           <p className="text-xl mb-4">
             <span className="text-dark-foreground font-medium">Let's talk about your next move.</span>{" "}
-            <span className="text-dark-muted">
-              Whether it's strategy, design, or both — we're here to help.
-            </span>
+            <span className="text-dark-muted">Whether it's strategy, design, or both — we're here to help.</span>
           </p>
 
-          <Button 
-            size="lg" 
+          <Button
+            size="lg"
             className="bg-background hover:bg-background/90 text-foreground font-medium rounded-full px-8 mt-12 text-lg h-14"
           >
             Contact
