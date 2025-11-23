@@ -101,30 +101,30 @@ All colors MUST be HSL.
       repeating-linear-gradient(
         0deg,
         #D6D6D6 0px,
-        #C8C8C8 2px,
-        transparent 2px,
-        transparent 8px
+        #C8C8C8 3px,
+        transparent 3px,
+        transparent 10px
       ),
       repeating-linear-gradient(
         90deg,
         #D6D6D6 0px,
-        #BEBEBE 2px,
-        transparent 2px,
-        transparent 8px
+        #BEBEBE 3px,
+        transparent 3px,
+        transparent 10px
       ),
       repeating-linear-gradient(
         0deg,
         #E8E8E8 0px,
-        #DADADA 1px,
-        transparent 1px,
-        transparent 12px
+        #DADADA 2px,
+        transparent 2px,
+        transparent 14px
       ),
       repeating-linear-gradient(
         90deg,
         #E8E8E8 0px,
-        #D2D2D2 1px,
-        transparent 1px,
-        transparent 11px
+        #D2D2D2 2px,
+        transparent 2px,
+        transparent 13px
       ),
       linear-gradient(
         135deg,
@@ -132,7 +132,7 @@ All colors MUST be HSL.
         #D6D6D6 50%,
         #C0C0C0 100%
       );
-    background-size: 8px 8px, 8px 8px, 12px 12px, 11px 11px, 100% 100%;
+    background-size: 10px 10px, 10px 10px, 14px 14px, 13px 13px, 100% 100%;
     background-position: 0 0, 0 0, 3px 2px, 4px 3px, 0 0;
     -webkit-background-clip: text;
     background-clip: text;
