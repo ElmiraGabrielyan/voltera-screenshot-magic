@@ -17,7 +17,7 @@ const CTA = () => {
 
           <p className="text-xl mb-4">
             <span className="text-dark-foreground font-medium">Let's talk about your next move.</span>{" "}
-            <span className="text-dark-muted">Whether it's strategy, design, or both — we're here to help.</span>
+            <span className="text-dark-muted">Whether it’s marketing, sales, hiring, or workflow improvement.</span>
           </p>
 
           <Button
