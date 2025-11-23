@@ -12,13 +12,13 @@ const Team = () => {
           </div>
           <div className="lg:pt-12">
             <p className="text-lg mb-4">
-              We're a small,{" "}
+              We're a small,hands-on team{" "}
               <span className="font-semibold text-foreground">
-                focused team of designers, writers, and developers
+                with background in marketing, sales, team recruitement and product operations.
               </span>
             </p>
             <p className="text-muted-foreground">
-              who care deeply about what we make.
+              Our work is personal, practical, and focused on what your business actually needs.
             </p>
           </div>
         </div>
