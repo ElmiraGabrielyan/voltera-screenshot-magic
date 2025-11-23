@@ -64,7 +64,8 @@ const Process = () => {
           {/* Right side - Content */}
           <div>
             <h2 className="text-5xl font-bold mb-8 leading-tight">
-              A methodical, research driven process that delivers lasting outcomes.
+              A clear,research driven, structured way of working that improves how your team markets, sells, and
+              operates..
             </h2>
             <p className="text-dark-muted mb-2">
               Our work covers the essentials: marketing delivered consistently, sales supported end-to-end, hiring for
