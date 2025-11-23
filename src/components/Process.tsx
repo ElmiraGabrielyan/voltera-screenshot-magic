@@ -1,4 +1,6 @@
 const Process = () => {
+  // Hidden from visitors - phases timeline
+  /*
   const phases = [
     {
       phase: "Discovery",
@@ -30,6 +32,7 @@ const Process = () => {
       ],
     },
   ];
+  */
 
   const features = [
     "Marketing that’s organised and consistent",
@@ -77,9 +80,9 @@ const Process = () => {
           </div>
         </div>
 
-        {/* Timeline */}
+        {/* Timeline - Hidden from visitors */}
+        {/*
         <div className="mt-24 relative">
-          {/* Vertical progress line */}
           <div className="absolute left-0 top-0 bottom-0 w-px bg-dark-muted/20 hidden lg:block"></div>
           <div className="absolute left-0 top-0 w-px h-1/2 bg-accent hidden lg:block"></div>
           <div className="absolute left-0 top-1/2 w-3 h-3 rounded-full bg-accent -translate-x-1/2 hidden lg:block"></div>
@@ -105,6 +108,7 @@ const Process = () => {
             ))}
           </div>
         </div>
+        */}
       </div>
     </section>
   );
