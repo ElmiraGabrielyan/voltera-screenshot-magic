@@ -97,12 +97,25 @@ All colors MUST be HSL.
   }
   
   .pixel-text {
-    text-shadow: 
-      2px 2px 0px rgba(0, 0, 0, 0.3),
-      4px 4px 0px rgba(0, 0, 0, 0.2);
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
+    background-image: repeating-linear-gradient(
+      0deg,
+      currentColor 0px,
+      currentColor 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      currentColor 0px,
+      currentColor 2px,
+      transparent 2px,
+      transparent 4px
+    );
+    background-size: 4px 4px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
   }
 }
 
