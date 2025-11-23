@@ -67,9 +67,11 @@ const Process = () => {
               A methodical, research driven process that delivers lasting outcomes.
             </h2>
             <p className="text-dark-muted mb-2">
-              Over time we refined a rigorous, collaborative approach that keeps teams aligned and drives measurable
-              results.{" "}
-              <span className="text-dark-foreground font-semibold">We aim for lasting impact, not just hand-offs.</span>
+              Our work covers the essentials: marketing delivered consistently, sales supported end-to-end, hiring for
+              the right commercial roles, and automations that keep things running smoothly.{" "}
+              <span className="text-dark-foreground font-semibold">
+                We build everything with your team and focus on outcomes that stay reliable over time.
+              </span>
             </p>
           </div>
         </div>
