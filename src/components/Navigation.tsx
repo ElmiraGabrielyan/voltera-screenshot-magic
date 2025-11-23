@@ -27,7 +27,7 @@ const Navigation = () => {
           </div>
 
           {/* Right Navigation */}
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-8">
             <a
               href="https://instagram.com"
               className="text-sm font-medium hover:text-muted-foreground transition-colors"
@@ -43,7 +43,7 @@ const Navigation = () => {
             >
               FB.
             </a>
-            <Button size="lg" className="bg-accent hover:bg-accent/90 text-foreground font-medium rounded-full ml-4">
+            <Button size="lg" className="bg-accent hover:bg-accent/90 text-foreground font-medium rounded-full ml-6">
               Contact
             </Button>
           </div>
