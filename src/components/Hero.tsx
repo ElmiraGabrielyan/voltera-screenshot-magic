@@ -1,4 +1,4 @@
-import heroImage from "@/assets/hero-sculpture.jpg";
+import heartIcon from "@/assets/heart.svg";
 
 const Hero = () => {
   return (
@@ -16,7 +16,7 @@ const Hero = () => {
 
           {/* Central Image */}
           <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] flex items-center justify-center">
-            <img src={heroImage} alt="Abstract 3D sculpture" className="w-full h-full object-contain drop-shadow-2xl" />
+            <img src={heartIcon} alt="Heart icon" className="w-full h-full object-contain drop-shadow-2xl" style={{ filter: 'brightness(0) saturate(100%) invert(95%) sepia(100%) saturate(2000%) hue-rotate(0deg)' }} />
 
             {/* Floating labels */}
             <div className="absolute top-[15%] left-1/2 -translate-x-1/2 bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg">
