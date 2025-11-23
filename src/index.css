@@ -100,29 +100,29 @@ All colors MUST be HSL.
     background-image: 
       repeating-linear-gradient(
         0deg,
-        currentColor 0px,
-        currentColor 2px,
+        #D6D6D6 0px,
+        #D6D6D6 2px,
         transparent 2px,
         transparent 8px
       ),
       repeating-linear-gradient(
         90deg,
-        currentColor 0px,
-        currentColor 2px,
+        #D6D6D6 0px,
+        #D6D6D6 2px,
         transparent 2px,
         transparent 8px
       ),
       repeating-linear-gradient(
         0deg,
-        currentColor 0px,
-        currentColor 1px,
+        #E8E8E8 0px,
+        #E8E8E8 1px,
         transparent 1px,
         transparent 12px
       ),
       repeating-linear-gradient(
         90deg,
-        currentColor 0px,
-        currentColor 1px,
+        #E8E8E8 0px,
+        #E8E8E8 1px,
         transparent 1px,
         transparent 11px
       );
