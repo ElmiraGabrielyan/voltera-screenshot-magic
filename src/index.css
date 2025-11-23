@@ -95,6 +95,15 @@ All colors MUST be HSL.
   h1, h2, h3, h4, h5, h6 {
     @apply font-bold tracking-tight;
   }
+  
+  .pixel-text {
+    text-shadow: 
+      2px 2px 0px rgba(0, 0, 0, 0.3),
+      4px 4px 0px rgba(0, 0, 0, 0.2);
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+  }
 }
 
 @layer utilities {
