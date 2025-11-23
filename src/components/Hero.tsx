@@ -6,12 +6,12 @@ const Hero = () => {
       <div className="container mx-auto px-6 lg:px-12 py-20">
         <div className="relative">
           {/* Dotted headline */}
-          <h2 className="text-[12vw] leading-none font-bold dotted-text mb-8 text-center text-white/10">
-            design led strategy
+          <h2 className="text-[12vw] leading-none font-bold dotted-text mb-8 text-center" style={{ color: '#D6D6D6' }}>
+            all
             <br />
-            with sustainable
+            about
             <br />
-            impact.
+            people, ideas, execution
           </h2>
 
           {/* Central Image */}
