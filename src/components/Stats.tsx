@@ -11,14 +11,14 @@ const Stats = () => {
       description: "Hands-on experience inside global teams, scale-ups, and SMBs — understanding how businesses truly operate.",
     },
     {
-      number: "50+",
-      label: "Major projects delivered.",
-      description: "Campaigns, funnels, hiring systems, PRDs, and operational processes implemented across multiple teams.",
+      number: "$8ml",
+      label: "in sales & marketing scale handled.",
+      description: "Real estate transactions + multi-million marketing budgets.",
     },
     {
-      number: "10+",
-      label: "Industries worked in.",
-      description: "Tech, real estate, iGaming, education, retail, e-commerce, finance, hospitality, and construction.",
+      number: "50",
+      label: "Major projects delivered.",
+      description: "Funnels, hiring systems, campaigns, content, and operational structures.",
     },
   ];
 
