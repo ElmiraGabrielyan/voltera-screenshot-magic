@@ -6,7 +6,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 lg:px-12 py-20">
         <div className="relative">
           {/* Background text - more subtle */}
-          <h2 className="text-[8vw] leading-none font-bold pixel-text mb-8 text-center opacity-60">
+          <h2 className="text-[8vw] leading-none font-bold pixel-text mb-8 text-center opacity-50">
             all
             <br />
             about
