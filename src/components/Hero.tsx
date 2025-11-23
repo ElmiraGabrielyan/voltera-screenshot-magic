@@ -26,7 +26,7 @@ const Hero = () => {
             />
 
             {/* Floating labels */}
-            <div className="absolute top-[5%] left-1/2 -translate-x-1/2 bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg animate-fade-in">
+            <div className="absolute top-[20%] left-[-15%] bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg animate-fade-in">
               <span className="text-sm font-medium">marketing & brand identity</span>
             </div>
 
