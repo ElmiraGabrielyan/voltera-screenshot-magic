@@ -6,14 +6,7 @@ const Hero = () => {
       <div className="container mx-auto px-6 lg:px-12 py-20">
         <div className="relative">
           {/* Dotted headline */}
-          <h2 
-            className="text-[12vw] leading-none font-bold pixel-text mb-8 text-center" 
-            style={{ 
-              background: "linear-gradient(180deg, #FFFFFF 0%, #D6D6D6 50%, #B8B8B8 100%)",
-              WebkitBackgroundClip: "text",
-              backgroundClip: "text"
-            }}
-          >
+          <h2 className="text-[12vw] leading-none font-bold pixel-text mb-8 text-center">
             all
             <br />
             about
