@@ -32,10 +32,10 @@ const Process = () => {
   ];
 
   const features = [
-    "Methodical process",
-    "Research-informed decisions",
-    "Scalable by default",
-    "Collaborative checkpoints",
+    "Marketing that’s organised and consistent",
+    "Clear, reliable sales execution",
+    "Clear steps for finding and selecting the right people",
+    "Simple, effective process automation",
   ];
 
   return (
@@ -47,7 +47,12 @@ const Process = () => {
             <div className="space-y-4 mb-12">
               {features.map((feature, index) => (
                 <div key={index} className="flex items-center gap-3">
-                  <svg className="w-5 h-5 text-accent flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg
+                    className="w-5 h-5 text-accent flex-shrink-0"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                  >
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                   <span className="text-dark-muted">{feature}</span>
@@ -62,11 +67,9 @@ const Process = () => {
               A methodical, research driven process that delivers lasting outcomes.
             </h2>
             <p className="text-dark-muted mb-2">
-              Over time we refined a rigorous, collaborative approach that keeps teams aligned
-              and drives measurable results.{" "}
-              <span className="text-dark-foreground font-semibold">
-                We aim for lasting impact, not just hand-offs.
-              </span>
+              Over time we refined a rigorous, collaborative approach that keeps teams aligned and drives measurable
+              results.{" "}
+              <span className="text-dark-foreground font-semibold">We aim for lasting impact, not just hand-offs.</span>
             </p>
           </div>
         </div>
@@ -86,7 +89,7 @@ const Process = () => {
                   {phase.items.map((item, itemIndex) => (
                     <div key={itemIndex} className="bg-dark-muted/10 rounded-full overflow-hidden">
                       <div className="px-6 py-4 relative">
-                        <div 
+                        <div
                           className="absolute inset-0 bg-dark-muted/20 rounded-full"
                           style={{ width: `${item.progress}%` }}
                         ></div>
