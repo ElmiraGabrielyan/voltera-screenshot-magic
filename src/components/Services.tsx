@@ -1,20 +1,44 @@
 const Services = () => {
   const services = [
     {
-      title: "Branding",
-      description: "We help brands look sharp, sound right, and work better — online and off.",
+      title: "Marketing & Brand Identity",
+      items: [
+        "Outsource Omni-channel Marketing team",
+        "Branding",
+        "Commercial Production",
+        "Customer Hypercare flow",
+        "Landing pages",
+        "Content creation"
+      ],
     },
     {
-      title: "PR & marketing",
-      description: "Launch campaigns, content, positioning — from press releases to product messaging.",
+      title: "Sales Outsourcing",
+      items: [
+        "Outsourced or hybrid sales teams",
+        "Lead generation and qualification",
+        "Seller and investor pitch decks",
+        "CRM implementation & optimization",
+        "Sales funnel automation",
+        "Ongoing conversion optimization and reporting"
+      ],
     },
     {
-      title: "Web & app design",
-      description: "Clean, considered, conversion-focused. Built around your business, not a template.",
+      title: "Recruiting",
+      items: [
+        "Outsourced recruitment team",
+        "Onboarding and trainings",
+        '"Hiring Starter Pack"',
+        "Expo hostesses and training sessions"
+      ],
     },
     {
-      title: "Front-end development",
-      description: "Framer, Webflow, or hand-coded. Every build is fast, responsive, and beautiful to the last pixel.",
+      title: "Process Automation",
+      items: [
+        "Custom internal AI agents (onboarding assistant, support chatbot, etc.)",
+        "Recruitment process automation (candidate screening, scheduling, etc.)",
+        "Process improvement tools (internal CRMs, KPI dashboards, etc.)",
+        "Lead qualification bots"
+      ],
     },
   ];
 
@@ -51,10 +75,15 @@ const Services = () => {
                 <div className="absolute -top-24 left-1/2 w-px h-24 bg-dark-muted/20 -translate-x-1/2"></div>
                 
                 <div className="border border-dark-muted/20 rounded-3xl p-8 bg-dark-surface/50 backdrop-blur-sm h-full hover:border-accent/40 transition-colors">
-                  <h3 className="text-2xl font-bold mb-4">{service.title}</h3>
-                  <p className="text-dark-muted text-sm leading-relaxed">
-                    {service.description}
-                  </p>
+                  <h3 className="text-2xl font-bold mb-6">{service.title}</h3>
+                  <ul className="space-y-3">
+                    {service.items.map((item, i) => (
+                      <li key={i} className="text-dark-muted text-sm leading-relaxed flex items-start">
+                        <span className="mr-2 text-accent">•</span>
+                        <span>{item}</span>
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
             ))}
