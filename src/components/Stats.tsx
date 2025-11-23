@@ -1,24 +1,24 @@
 const Stats = () => {
   const stats = [
     {
-      number: "8",
-      label: "Years in the game.",
-      description: "A decade of building brands, launching products, and shipping clean, conversion-focused design.",
+      number: "14+",
+      label: "Years in growth roles.",
+      description: "A joint background across product, marketing, sales, and operations — built inside real companies.",
     },
     {
-      number: "80+",
-      label: "Happy clients.",
-      description: "Long-term partnerships, repeat business, and glowing testimonials fuel what we do.",
+      number: "16+",
+      label: "Companies supported.",
+      description: "Hands-on experience inside global teams, scale-ups, and SMBs — understanding how businesses truly operate.",
     },
     {
-      number: "$8M",
-      label: "Raised for clients.",
-      description: "Our work helped founders secure funding — from pre-seed to Series A and beyond.",
+      number: "50+",
+      label: "Major projects delivered.",
+      description: "Campaigns, funnels, hiring systems, PRDs, and operational processes implemented across multiple teams.",
     },
     {
-      number: "150+",
-      label: "Completed projects.",
-      description: "Funding won through work delivered on time, on brand, and with intent.",
+      number: "10+",
+      label: "Industries worked in.",
+      description: "Tech, real estate, iGaming, education, retail, e-commerce, finance, hospitality, and construction.",
     },
   ];
 
