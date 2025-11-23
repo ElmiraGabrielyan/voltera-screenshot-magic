@@ -1,24 +1,25 @@
 const Stats = () => {
   const stats = [
     {
-      number: "14+",
+      number: "14",
       label: "Years in growth roles.",
-      description: "A joint background across product, marketing, sales, and operations — built inside real companies.",
+      description: "A joint background across product, marketing, sales, and operations - built inside real companies.",
     },
     {
       number: "16+",
       label: "Companies supported.",
-      description: "Hands-on experience inside global teams, scale-ups, and SMBs — understanding how businesses truly operate.",
+      description:
+        "Hands-on experience inside different teams, scale-ups, and SMBs - understanding how businesses truly operate.",
     },
     {
-      number: "$8ml",
-      label: "in sales & marketing scale handled.",
+      number: "$8M",
+      label: "Sales & marketing scale handled.",
       description: "Real estate transactions + multi-million marketing budgets.",
     },
     {
       number: "50",
       label: "Major projects delivered.",
-      description: "Funnels, hiring systems, campaigns, content, and operational structures.",
+      description: "Funnels, hiring systems, marketing campaigns, content, and operational structures.",
     },
   ];
 
@@ -30,9 +31,7 @@ const Stats = () => {
             <div key={index} className="text-center">
               <div className="text-7xl font-bold mb-4">{stat.number}</div>
               <h3 className="text-2xl font-bold mb-3">{stat.label}</h3>
-              <p className="text-muted-foreground text-sm leading-relaxed">
-                {stat.description}
-              </p>
+              <p className="text-muted-foreground text-sm leading-relaxed">{stat.description}</p>
             </div>
           ))}
         </div>
@@ -42,7 +41,7 @@ const Stats = () => {
           <h3 className="text-4xl font-bold mb-16 max-w-2xl">
             Trusted by teams from early to established. Built to support every stage.
           </h3>
-          
+
           <div className="flex items-center justify-center gap-20 flex-wrap grayscale opacity-60">
             <div className="text-4xl font-bold">COMPANY</div>
             <div className="text-4xl font-bold">BRAND</div>
