@@ -19,19 +19,19 @@ const Hero = () => {
             <img src={heartIcon} alt="Heart icon" className="w-full h-full object-contain drop-shadow-2xl animate-float" style={{ filter: 'brightness(0) saturate(100%) invert(95%) sepia(100%) saturate(2000%) hue-rotate(0deg)' }} />
 
             {/* Floating labels */}
-            <div className="absolute top-[15%] left-1/2 -translate-x-1/2 bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg">
+            <div className="absolute top-[5%] left-1/2 -translate-x-1/2 bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg animate-fade-in">
               <span className="text-sm font-medium">marketing & brand identity</span>
             </div>
 
-            <div className="absolute top-[45%] right-[-20%] bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg">
+            <div className="absolute top-[40%] right-[-10%] bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:200ms]">
               <span className="text-sm font-medium">sales outsourcing</span>
             </div>
 
-            <div className="absolute bottom-[20%] left-[-15%] bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg">
+            <div className="absolute bottom-[25%] left-[-8%] bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:400ms]">
               <span className="text-sm font-medium">recruiting</span>
             </div>
 
-            <div className="absolute bottom-[15%] right-[-15%] bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg">
+            <div className="absolute bottom-[5%] right-[-8%] bg-background/90 backdrop-blur-sm px-4 py-2 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:600ms]">
               <span className="text-sm font-medium">process automation</span>
             </div>
           </div>
