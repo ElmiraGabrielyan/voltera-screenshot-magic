@@ -17,7 +17,7 @@ const Navigation = () => {
               About.
             </a>
             <a href="#blog" className="text-sm font-medium hover:text-muted-foreground transition-colors">
-              Blog.
+              Contact.
             </a>
           </div>
 
@@ -28,22 +28,22 @@ const Navigation = () => {
 
           {/* Right Navigation */}
           <div className="flex items-center gap-6">
-            <a href="https://twitter.com" className="text-sm font-medium hover:text-muted-foreground transition-colors">
-              X.
-            </a>
-            <a href="https://instagram.com" className="text-sm font-medium hover:text-muted-foreground transition-colors">
+            <a
+              href="https://instagram.com"
+              className="text-sm font-medium hover:text-muted-foreground transition-colors"
+            >
               IG.
             </a>
             <a href="https://behance.net" className="text-sm font-medium hover:text-muted-foreground transition-colors">
-              BE.
+              IN.
             </a>
-            <a href="https://dribbble.com" className="text-sm font-medium hover:text-muted-foreground transition-colors">
-              DB.
-            </a>
-            <Button 
-              size="lg" 
-              className="bg-accent hover:bg-accent/90 text-foreground font-medium rounded-full ml-4"
+            <a
+              href="https://dribbble.com"
+              className="text-sm font-medium hover:text-muted-foreground transition-colors"
             >
+              FB.
+            </a>
+            <Button size="lg" className="bg-accent hover:bg-accent/90 text-foreground font-medium rounded-full ml-4">
               Contact
             </Button>
           </div>
