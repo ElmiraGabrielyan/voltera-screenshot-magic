@@ -13,6 +13,9 @@ export default {
       },
     },
     extend: {
+      fontFamily: {
+        'n27': ['N27', 'system-ui', '-apple-system', 'sans-serif'],
+      },
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -93,12 +96,21 @@ export default {
             transform: "translateY(0)",
           },
         },
+        "glow-pulse": {
+          "0%, 100%": {
+            filter: "drop-shadow(0 0 20px rgba(253, 248, 0, 0.6)) drop-shadow(0 0 40px rgba(253, 248, 0, 0.4))",
+          },
+          "50%": {
+            filter: "drop-shadow(0 0 30px rgba(253, 248, 0, 0.8)) drop-shadow(0 0 60px rgba(253, 248, 0, 0.5))",
+          },
+        },
       },
       animation: {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
         "float": "float 3s ease-in-out infinite",
         "fade-in": "fade-in 0.6s ease-out forwards",
+        "glow-pulse": "glow-pulse 2s ease-in-out infinite",
       },
     },
   },
