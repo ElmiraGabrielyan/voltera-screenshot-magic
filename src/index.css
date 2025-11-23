@@ -97,21 +97,37 @@ All colors MUST be HSL.
   }
   
   .pixel-text {
-    background-image: repeating-linear-gradient(
-      0deg,
-      currentColor 0px,
-      currentColor 2px,
-      transparent 2px,
-      transparent 8px
-    ),
-    repeating-linear-gradient(
-      90deg,
-      currentColor 0px,
-      currentColor 2px,
-      transparent 2px,
-      transparent 8px
-    );
-    background-size: 8px 8px;
+    background-image: 
+      repeating-linear-gradient(
+        0deg,
+        currentColor 0px,
+        currentColor 2px,
+        transparent 2px,
+        transparent 8px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        currentColor 0px,
+        currentColor 2px,
+        transparent 2px,
+        transparent 8px
+      ),
+      repeating-linear-gradient(
+        0deg,
+        currentColor 0px,
+        currentColor 1px,
+        transparent 1px,
+        transparent 12px
+      ),
+      repeating-linear-gradient(
+        90deg,
+        currentColor 0px,
+        currentColor 1px,
+        transparent 1px,
+        transparent 11px
+      );
+    background-size: 8px 8px, 8px 8px, 12px 12px, 11px 11px;
+    background-position: 0 0, 0 0, 3px 2px, 4px 3px;
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
