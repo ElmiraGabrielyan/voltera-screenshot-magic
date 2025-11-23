@@ -22,7 +22,7 @@ const CTA = () => {
 
           <Button
             size="lg"
-            className="bg-background hover:bg-background/90 text-foreground font-medium rounded-full px-8 mt-12 text-lg h-14"
+            className="bg-[#FDF800] hover:bg-[#FDF800]/90 text-black font-medium rounded-full px-8 mt-12 text-lg h-14"
           >
             Contact
             <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
