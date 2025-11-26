@@ -6,13 +6,13 @@ const Stats = () => {
       description: "A joint background across product, marketing, sales, and operations - built inside real companies.",
     },
     {
-      number: "16+",
+      number: "36+",
       label: "Companies supported.",
       description:
         "Hands-on experience inside different teams, scale-ups, and SMBs - understanding how businesses truly operate.",
     },
     {
-      number: "$8M",
+      number: "$11M",
       label: "Sales & marketing scale handled.",
       description: "Real estate transactions + multi-million marketing budgets.",
     },
