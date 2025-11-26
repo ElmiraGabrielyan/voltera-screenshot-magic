@@ -12,9 +12,9 @@ const Team = () => {
           </div>
           <div className="lg:pt-12">
             <p className="text-lg mb-4">
-              We're a small,hands-on team{" "}
+              We're a team{" "}
               <span className="font-semibold text-foreground">
-                with background in marketing, sales, team recruitement and product operations.
+                with background in marketing, sales, team recruitment and product operations.
               </span>
             </p>
             <p className="text-muted-foreground">
