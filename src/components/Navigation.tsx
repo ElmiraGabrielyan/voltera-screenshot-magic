@@ -10,13 +10,13 @@ const Navigation = () => {
             <a href="#" className="text-sm font-medium hover:text-muted-foreground transition-colors">
               Home.
             </a>
-            <a href="#projects" className="text-sm font-medium hover:text-muted-foreground transition-colors">
-              Projects.
+            <a href="#services" className="text-sm font-medium hover:text-muted-foreground transition-colors">
+              Services.
             </a>
-            <a href="#about" className="text-sm font-medium hover:text-muted-foreground transition-colors">
-              About.
+            <a href="#team" className="text-sm font-medium hover:text-muted-foreground transition-colors">
+              Team.
             </a>
-            <a href="#blog" className="text-sm font-medium hover:text-muted-foreground transition-colors">
+            <a href="#contact" className="text-sm font-medium hover:text-muted-foreground transition-colors">
               Contact.
             </a>
           </div>
