@@ -34,8 +34,7 @@ const Footer = () => {
               <li><a href="#" className="text-lg font-medium hover:text-muted-foreground transition-colors">Home.</a></li>
               <li><a href="#projects" className="text-lg font-medium hover:text-muted-foreground transition-colors">Projects.</a></li>
               <li><a href="#about" className="text-lg font-medium hover:text-muted-foreground transition-colors">About.</a></li>
-              <li><a href="#blog" className="text-lg font-medium hover:text-muted-foreground transition-colors">Blog.</a></li>
-              <li><a href="#contact" className="text-lg font-medium hover:text-muted-foreground transition-colors">Connect.</a></li>
+              <li><a href="#contact" className="text-lg font-medium hover:text-muted-foreground transition-colors">Contact.</a></li>
             </ul>
           </div>
 
@@ -43,10 +42,9 @@ const Footer = () => {
           <div>
             <h4 className="text-sm font-medium text-muted-foreground mb-4">Social.</h4>
             <ul className="space-y-2">
-              <li><a href="https://twitter.com" className="text-lg font-medium hover:text-muted-foreground transition-colors">X.</a></li>
               <li><a href="https://instagram.com" className="text-lg font-medium hover:text-muted-foreground transition-colors">IG.</a></li>
-              <li><a href="https://behance.net" className="text-lg font-medium hover:text-muted-foreground transition-colors">BE.</a></li>
-              <li><a href="https://dribbble.com" className="text-lg font-medium hover:text-muted-foreground transition-colors">DB.</a></li>
+              <li><a href="https://behance.net" className="text-lg font-medium hover:text-muted-foreground transition-colors">IN.</a></li>
+              <li><a href="https://dribbble.com" className="text-lg font-medium hover:text-muted-foreground transition-colors">FB.</a></li>
             </ul>
           </div>
         </div>
