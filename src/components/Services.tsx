@@ -43,7 +43,7 @@ const Services = () => {
   ];
 
   return (
-    <section className="py-32 bg-dark-surface text-dark-foreground">
+    <section id="services" className="py-32 bg-dark-surface text-dark-foreground scroll-mt-20">
       <div className="container mx-auto px-6 lg:px-12">
         {/* Section header */}
         <div className="text-center mb-24">
