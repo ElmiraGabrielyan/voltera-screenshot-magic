@@ -1,6 +1,6 @@
 const Team = () => {
   return (
-    <section className="py-32 bg-background">
+    <section id="team" className="py-32 bg-background scroll-mt-20">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-start mb-20">
           <div>
@@ -12,7 +12,7 @@ const Team = () => {
           </div>
           <div className="lg:pt-12">
             <p className="text-lg mb-4">
-              We're a team{" "}
+              We&apos;re a team{" "}
               <span className="font-semibold text-foreground">
                 with background in marketing, sales, team recruitment and product operations.
               </span>

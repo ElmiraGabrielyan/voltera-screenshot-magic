@@ -7,7 +7,7 @@ import Team from "@/components/Team";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
 
-const Index = () => {
+export default function Home() {
   return (
     <div className="min-h-screen">
       <Navigation />
@@ -22,6 +22,5 @@ const Index = () => {
       <Footer />
     </div>
   );
-};
+}
 
-export default Index;

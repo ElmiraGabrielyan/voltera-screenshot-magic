@@ -1,7 +1,38 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
+import { useContactModal } from "@/contexts/ContactModalContext";
 
 const Footer = () => {
+  const { openModal } = useContactModal();
+
+  const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {
+    e.preventDefault();
+    
+    if (href === "#") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+      return;
+    }
+
+    if (href === "#contact") {
+      openModal();
+      return;
+    }
+
+    const element = document.querySelector(href);
+    if (element) {
+      const headerOffset = 80; // Height of fixed navbar
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
+    }
+  };
+
   return (
     <footer className="py-20 bg-background border-t border-border">
       <div className="container mx-auto px-6 lg:px-12">
@@ -31,10 +62,41 @@ const Footer = () => {
           <div>
             <h4 className="text-sm font-medium text-muted-foreground mb-4">Site map.</h4>
             <ul className="space-y-2">
-              <li><a href="#" className="text-lg font-medium hover:text-muted-foreground transition-colors">Home.</a></li>
-              <li><a href="#services" className="text-lg font-medium hover:text-muted-foreground transition-colors">Services.</a></li>
-              <li><a href="#team" className="text-lg font-medium hover:text-muted-foreground transition-colors">Team.</a></li>
-              <li><a href="#contact" className="text-lg font-medium hover:text-muted-foreground transition-colors">Contact.</a></li>
+              <li>
+                <a 
+                  href="#" 
+                  onClick={(e) => handleNavClick(e, "#")}
+                  className="text-lg font-medium hover:text-muted-foreground transition-colors cursor-pointer"
+                >
+                  Home.
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="#services" 
+                  onClick={(e) => handleNavClick(e, "#services")}
+                  className="text-lg font-medium hover:text-muted-foreground transition-colors cursor-pointer"
+                >
+                  Services.
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="#team" 
+                  onClick={(e) => handleNavClick(e, "#team")}
+                  className="text-lg font-medium hover:text-muted-foreground transition-colors cursor-pointer"
+                >
+                  Team.
+                </a>
+              </li>
+              <li>
+                <button 
+                  onClick={openModal}
+                  className="text-lg font-medium hover:text-muted-foreground transition-colors text-left"
+                >
+                  Contact.
+                </button>
+              </li>
             </ul>
           </div>
 
@@ -64,12 +126,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Large background text */}
-        <div className="relative mt-16 overflow-hidden">
-          <div className="text-[20vw] font-bold text-muted/10 leading-none pointer-events-none select-none">
-            volterā
-          </div>
-        </div>
       </div>
     </footer>
   );

@@ -1,8 +1,13 @@
+"use client";
+
 import { Button } from "@/components/ui/button";
+import { useContactModal } from "@/contexts/ContactModalContext";
 
 const CTA = () => {
+  const { openModal } = useContactModal();
+
   return (
-    <section className="py-32 bg-dark-surface text-dark-foreground relative overflow-hidden">
+    <section id="contact" className="py-32 bg-dark-surface text-dark-foreground relative overflow-hidden scroll-mt-20">
       {/* Decorative elements */}
       <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-dark-muted/5 blur-3xl"></div>
       <div className="absolute bottom-20 right-10 w-96 h-96 rounded-full bg-accent/5 blur-3xl"></div>
@@ -16,13 +21,14 @@ const CTA = () => {
           </h2>
 
           <p className="text-xl mb-4">
-            <span className="text-dark-foreground font-medium">Let's talk about your next move.</span>{" "}
-            <span className="text-dark-muted">Whether it’s marketing, sales, hiring, or workflow improvement.</span>
+            <span className="text-dark-foreground font-medium">Let&apos;s talk about your next move.</span>{" "}
+            <span className="text-dark-muted">Whether it&apos;s marketing, sales, hiring, or workflow improvement.</span>
           </p>
 
           <Button
             size="lg"
             className="bg-[#FDF800] hover:bg-[#FDF800]/90 text-black font-medium rounded-full px-8 mt-12 text-lg h-14"
+            onClick={openModal}
           >
             Contact
             <svg className="w-5 h-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
