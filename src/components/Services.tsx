@@ -1,43 +1,34 @@
 const Services = () => {
   const services = [
     {
-      title: "Marketing & Brand Identity",
+      title: "Marketing Services",
       items: [
-        "Outsource Omni-channel Marketing team",
-        "Branding",
-        "Commercial Production",
-        "Customer Hypercare flow",
-        "Landing pages",
-        "Content creation"
+        "Brand strategy, branding, positioning & messaging",
+        "Lead generation systems (inbound & outbound)",
+        "Funnel architecture & landing page optimization/creation"
       ],
     },
     {
-      title: "Sales Outsourcing",
+      title: "Sales & Revenue Systems",
       items: [
-        "Outsourced or hybrid sales teams",
-        "Lead generation and qualification",
-        "Seller and investor pitch decks",
-        "CRM implementation & optimization",
-        "Sales funnel automation",
-        "Ongoing conversion optimization and reporting"
+        "CRM setup, customization & optimization",
+        "Lead qualification, scoring & routing",
+        "Sales pipelines and automated follow-up systems"
       ],
     },
     {
-      title: "Recruiting",
+      title: "Creative Production",
       items: [
-        "Outsourced recruitment team",
-        "Onboarding and trainings",
-        '"Hiring Starter Pack"',
-        "Expo hostesses and training sessions"
+        "Video and Ad creative production",
+        "Content systems for ads, social media and email marketing"
       ],
     },
     {
-      title: "Process Automation",
+      title: "Operations & Automation",
       items: [
-        "Custom internal AI agents (onboarding assistant, support chatbot, etc.)",
-        "Recruitment process automation (candidate screening, scheduling, etc.)",
-        "Process improvement tools (internal CRMs, KPI dashboards, etc.)",
-        "Lead qualification bots"
+        "Internal systems and workflows design",
+        "Process automation tools",
+        "Internal assistants for support and onboarding"
       ],
     },
   ];
