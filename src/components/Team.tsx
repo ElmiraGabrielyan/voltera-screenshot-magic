@@ -24,8 +24,14 @@ const Team = () => {
         </div>
 
         {/* Team images grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-          <div className="relative aspect-[3/4] bg-muted rounded-3xl overflow-hidden transform -rotate-2 hover:rotate-0 transition-transform">
+        <div className="grid grid-cols-1 md:grid-cols-4 gap-8 max-w-4xl mx-auto">
+        <div className="relative aspect-[3/4] bg-muted rounded-3xl overflow-hidden transform rotate-2 hover:rotate-0 transition-transform md:mt-12">
+            <div className="absolute inset-0 bg-gradient-to-br from-gray-200 to-gray-300"></div>
+          </div>
+          <div className="relative aspect-[3/4] bg-muted rounded-3xl overflow-hidden transform rotate-2 hover:rotate-0 transition-transform md:mt-12">
+            <div className="absolute inset-0 bg-gradient-to-br from-gray-300 to-gray-400"></div>
+          </div>
+          <div className="relative aspect-[3/4] bg-muted rounded-3xl overflow-hidden transform rotate-2 hover:rotate-0 transition-transform md:mt-12">
             <div className="absolute inset-0 bg-gradient-to-br from-gray-200 to-gray-300"></div>
           </div>
           <div className="relative aspect-[3/4] bg-muted rounded-3xl overflow-hidden transform rotate-2 hover:rotate-0 transition-transform md:mt-12">
