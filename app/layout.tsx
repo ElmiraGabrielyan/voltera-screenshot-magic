@@ -6,16 +6,19 @@ export const metadata: Metadata = {
   title: "Volterā - Digital Design & Strategy Agency",
   description: "Strategic design firm empowering brands with impact-driven digital experiences",
   authors: [{ name: "Volterā" }],
+  icons: {
+    icon: "/icon.svg",
+  },
   openGraph: {
     title: "Volterā - Digital Design & Strategy Agency",
     description: "Strategic design firm empowering brands with impact-driven digital experiences",
     type: "website",
-    images: ["https://lovable.dev/opengraph-image-p98pqg.png"],
+    images: [""],
   },
   twitter: {
     card: "summary_large_image",
     site: "@Voltera",
-    images: ["https://lovable.dev/opengraph-image-p98pqg.png"],
+    images: [""],
   },
 };
 
