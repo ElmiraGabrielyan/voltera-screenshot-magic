@@ -84,16 +84,25 @@ const Navigation = () => {
           {/* Right Navigation - Desktop */}
           <div className="hidden lg:flex items-center gap-6 lg:gap-8">
             <a
-              href="https://instagram.com"
+              href=" https://www.instagram.com/voltera.agency/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm lg:text-base font-semibold tracking-wide hover:text-muted-foreground transition-colors uppercase"
             >
               IG.
             </a>
-            <a href="https://behance.net" className="text-sm lg:text-base font-semibold tracking-wide hover:text-muted-foreground transition-colors uppercase">
+            <a 
+              href="https://www.linkedin.com/company/volteraagency/?viewAsMember=true" 
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm lg:text-base font-semibold tracking-wide hover:text-muted-foreground transition-colors uppercase"
+            >
               IN.
             </a>
             <a
-              href="https://dribbble.com"
+              href="https://www.facebook.com/profile.php?id=61583240265240"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-sm lg:text-base font-semibold tracking-wide hover:text-muted-foreground transition-colors uppercase"
             >
               FB.
