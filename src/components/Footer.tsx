@@ -104,9 +104,9 @@ const Footer = () => {
           <div>
             <h4 className="text-xs sm:text-sm font-medium text-muted-foreground mb-3 sm:mb-4">Social.</h4>
             <ul className="space-y-1.5 sm:space-y-2">
-              <li><a href="https://instagram.com" className="text-base sm:text-lg font-medium hover:text-muted-foreground transition-colors">IG.</a></li>
-              <li><a href="https://behance.net" className="text-base sm:text-lg font-medium hover:text-muted-foreground transition-colors">IN.</a></li>
-              <li><a href="https://dribbble.com" className="text-base sm:text-lg font-medium hover:text-muted-foreground transition-colors">FB.</a></li>
+              <li><a href="https://www.instagram.com/voltera.agency/" target="_blank" rel="noopener noreferrer" className="text-base sm:text-lg font-medium hover:text-muted-foreground transition-colors">IG.</a></li>
+              <li><a href="https://www.linkedin.com/company/volteraagency/?viewAsMember=true" target="_blank" rel="noopener noreferrer" className="text-base sm:text-lg font-medium hover:text-muted-foreground transition-colors">IN.</a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=61583240265240" target="_blank" rel="noopener noreferrer" className="text-base sm:text-lg font-medium hover:text-muted-foreground transition-colors">FB.</a></li>
             </ul>
           </div>
         </div>
