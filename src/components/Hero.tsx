@@ -3,11 +3,11 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black pt-20 scroll-mt-0">
-      <div className="container mx-auto px-6 lg:px-12 py-20">
-        <div className="relative">
-          {/* Background text - more subtle */}
-          <h2 className="text-[8vw] leading-none font-bold pixel-text mb-8 text-center opacity-50">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black pt-16 sm:pt-20 scroll-mt-0">
+      <div className="container mx-auto px-4 sm:px-6 lg:px-12 py-12 sm:py-16 lg:py-20">
+        <div className="relative flex flex-col items-center">
+          {/* Background text - responsive sizing */}
+          <h2 className="text-[10vw] sm:text-[8vw] lg:text-[7vw] leading-none font-bold pixel-text mb-8 sm:mb-12 lg:mb-8 text-center opacity-50 max-w-4xl">
             all
             <br />
             about
@@ -15,8 +15,8 @@ const Hero = () => {
             people, ideas, execution
           </h2>
 
-          {/* Central Image */}
-          <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] flex items-center justify-center">
+          {/* Central Image with labels - responsive layout */}
+          <div className="relative w-full max-w-[280px] sm:max-w-[350px] lg:max-w-[400px] aspect-square flex items-center justify-center mt-8 lg:mt-0">
             <Image
               src={heartIcon}
               alt="Heart icon"
@@ -28,21 +28,41 @@ const Hero = () => {
               }}
             />
 
-            {/* Floating labels - better arranged */}
-            <div className="absolute top-[15%] left-[-25%] bg-background/95 backdrop-blur-sm px-6 py-3 rounded-full border border-border shadow-lg animate-fade-in">
+            {/* Floating labels - mobile: stacked below, desktop: positioned around */}
+            {/* Desktop labels - hidden on mobile */}
+            <div className="hidden lg:block absolute top-[15%] left-[-25%] bg-background/95 backdrop-blur-sm px-6 py-3 rounded-full border border-border shadow-lg animate-fade-in">
               <span className="text-sm font-medium tracking-wide">marketing & brand identity</span>
             </div>
 
-            <div className="absolute top-[35%] right-[-20%] bg-background/95 backdrop-blur-sm px-6 py-3 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:200ms]">
+            <div className="hidden lg:block absolute top-[35%] right-[-20%] bg-background/95 backdrop-blur-sm px-6 py-3 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:200ms]">
               <span className="text-sm font-medium tracking-wide">sales outsourcing</span>
             </div>
 
-            <div className="absolute bottom-[35%] left-[-20%] bg-background/95 backdrop-blur-sm px-6 py-3 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:400ms]">
+            <div className="hidden lg:block absolute bottom-[35%] left-[-20%] bg-background/95 backdrop-blur-sm px-6 py-3 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:400ms]">
               <span className="text-sm font-medium tracking-wide">recruiting</span>
             </div>
 
-            <div className="absolute bottom-[15%] right-[-25%] bg-background/95 backdrop-blur-sm px-6 py-3 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:600ms]">
+            <div className="hidden lg:block absolute bottom-[15%] right-[-25%] bg-background/95 backdrop-blur-sm px-6 py-3 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:600ms]">
               <span className="text-sm font-medium tracking-wide">process automation</span>
+            </div>
+          </div>
+
+          {/* Mobile labels - grid layout below heart */}
+          <div className="lg:hidden grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mt-8 sm:mt-12 w-full max-w-lg">
+            <div className="bg-background/95 backdrop-blur-sm px-4 sm:px-6 py-2 sm:py-3 rounded-full border border-border shadow-lg animate-fade-in text-center">
+              <span className="text-xs sm:text-sm font-medium tracking-wide">marketing & brand identity</span>
+            </div>
+
+            <div className="bg-background/95 backdrop-blur-sm px-4 sm:px-6 py-2 sm:py-3 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:200ms] text-center">
+              <span className="text-xs sm:text-sm font-medium tracking-wide">sales outsourcing</span>
+            </div>
+
+            <div className="bg-background/95 backdrop-blur-sm px-4 sm:px-6 py-2 sm:py-3 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:400ms] text-center">
+              <span className="text-xs sm:text-sm font-medium tracking-wide">recruiting</span>
+            </div>
+
+            <div className="bg-background/95 backdrop-blur-sm px-4 sm:px-6 py-2 sm:py-3 rounded-full border border-border shadow-lg animate-fade-in [animation-delay:600ms] text-center">
+              <span className="text-xs sm:text-sm font-medium tracking-wide">process automation</span>
             </div>
           </div>
         </div>
