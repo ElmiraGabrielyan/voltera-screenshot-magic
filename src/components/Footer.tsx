@@ -37,26 +37,6 @@ const Footer = () => {
     <footer className="py-12 sm:py-16 lg:py-20 bg-background border-t border-border">
       <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 sm:gap-12 lg:gap-16 mb-12 sm:mb-16">
-          {/* Newsletter */}
-          <div className="sm:col-span-2 md:col-span-1">
-            <h3 className="text-lg sm:text-xl font-bold mb-2">Updates?</h3>
-            <p className="text-xs sm:text-sm text-muted-foreground mb-4 sm:mb-6">Sign in to our newsletter.</p>
-            <div className="flex gap-2">
-              <Input 
-                type="email" 
-                placeholder="jane@framer.com"
-                className="rounded-full text-sm"
-              />
-              <Button 
-                size="icon"
-                className="rounded-full bg-foreground hover:bg-foreground/90 flex-shrink-0 h-10 w-10 sm:h-11 sm:w-11"
-              >
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-                </svg>
-              </Button>
-            </div>
-          </div>
 
           {/* Site map */}
           <div>
@@ -116,8 +96,7 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-muted-foreground">
             <div className="text-center md:text-left">
               <p>Made by Volterā.</p>
-              <p>Last updated 11/12/25.</p>
-              <p>Copyright 2025 volterā. All rights reserved.</p>
+              <p>Copyright 2026 volterā. All rights reserved.</p>
             </div>
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-6 text-center">
               <a href="#" className="hover:text-foreground transition-colors">Terms of service.</a>

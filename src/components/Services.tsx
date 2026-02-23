@@ -38,7 +38,7 @@ const Services = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-12">
         {/* Section header */}
         <div className="text-center mb-12 sm:mb-16 lg:mb-24">
-          <h2 className="text-[12vw] sm:text-[10vw] lg:text-[8vw] leading-none font-bold pixel-text mb-6 sm:mb-8 opacity-60" style={{ color: '#D6D6D6' }}>
+          <h2 className="text-[12vw] sm:text-[10vw] lg:text-[8vw] leading-none font-bold pixel-text mb-6 sm:mb-8 text-gray-500">
             under the
             <br />
             hood

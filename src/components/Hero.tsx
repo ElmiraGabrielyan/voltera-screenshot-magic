@@ -7,7 +7,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-12 py-12 sm:py-16 lg:py-20">
         <div className="relative flex flex-col items-center">
           {/* Background text - responsive sizing */}
-          <h2 className="text-[10vw] sm:text-[8vw] lg:text-[7vw] leading-none font-bold pixel-text mb-8 sm:mb-12 lg:mb-8 text-center opacity-50 max-w-4xl">
+          <h2 className="text-[10vw] sm:text-[8vw] lg:text-[7vw] leading-none font-bold pixel-text mb-8 sm:mb-12 lg:mb-8 text-center text-gray-500 max-w-4xl">
             all
             <br />
             about
