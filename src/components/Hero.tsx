@@ -9,7 +9,7 @@ const Hero = () => {
           {/* Text + heart overlap: grey text behind, yellow pixel heart on top, labels on top */}
           <div className="relative w-full max-w-[280px] sm:max-w-[350px] lg:max-w-[400px] aspect-square flex items-center justify-center">
             {/* Layer 1: textured grey text (behind heart) */}
-            <h2 className="absolute inset-0 flex items-center justify-center text-[10vw] sm:text-[8vw] lg:text-[7vw] leading-none font-bold text-gray-800 text-center max-w-4xl z-0 pointer-events-none">
+            <h2 className="absolute inset-0 flex items-center justify-center text-[10vw] sm:text-[8vw] lg:text-[7vw] leading-none font-bold text-center max-w-4xl z-0 pointer-events-none" style={{ color: '#DCDCDC' }}>
               all
               <br />
               about
