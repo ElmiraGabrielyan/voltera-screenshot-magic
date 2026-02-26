@@ -14,7 +14,7 @@ const CTA = () => {
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-12 relative">
         <div className="text-center max-w-4xl mx-auto">
-          <h2 className="text-[12vw] sm:text-[10vw] lg:text-[8vw] leading-none font-bold text-gray-800 mb-8 sm:mb-10 lg:mb-12 text-gray-500">
+          <h2 className="text-[12vw] sm:text-[10vw] lg:text-[8vw] leading-none font-bold mb-8 sm:mb-10 lg:mb-12" style={{ color: '#DCDCDC' }}>
             ready
             <br />
             when you are.
